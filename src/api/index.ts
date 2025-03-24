@@ -5,6 +5,11 @@ export const $host = axios.create({
 })
 
 export const getProducts = async () => {
-    const response = await $host.get('products');
-    return response.data;
+    try {
+        const response = await $host.get('products');
+        return response.data;
+    } catch (error: any) {
+        throw new Error(error.response?.data?.message || 'Ошибка при загрузке продуктов');
+    }
+
 };
