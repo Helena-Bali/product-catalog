@@ -2,6 +2,8 @@
 
 This Product Catalog loads a list of products from the API and includes filtering, search and cart.
 
+Link to the deployed app: [Product Catalog](https://hilarious-kleicha-72d99a.netlify.app/)
+
 ### `npm start`
 
 Runs the app in the development mode.\
