@@ -1,6 +1,7 @@
 # Product Catalog
 
 This Product Catalog loads a list of products from the API and includes filtering, search and cart.
+The project uses Typescript, React Hooks, Redux, Material UI, React.Lazy.
 
 Link to the deployed app: [Product Catalog](https://hilarious-kleicha-72d99a.netlify.app/)
 
