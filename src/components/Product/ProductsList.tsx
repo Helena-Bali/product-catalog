@@ -34,7 +34,7 @@ const ProductsList: React.FC<ProductsListProps> = ({searchQuery}) => {
             <Categories category={category} setCategory={setCategory}/>
             {loading && <Box sx={{display: "flex", justifyContent: "center", mt: 10}}>
                 Загрузка...
-                <CircularProgress size="3rem"/>;
+                <CircularProgress size="3rem"/>
             </Box>}
             {error && <Typography color="error">Ошибка: {error}</Typography>}
 
