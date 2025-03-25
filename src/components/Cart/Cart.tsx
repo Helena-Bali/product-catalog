@@ -51,7 +51,7 @@ const Cart: React.FC = () => {
                                             onChange={(e) =>
                                                 dispatch(updateQuantity({ id: item.id, quantity: Number(e.target.value) }))
                                             }
-                                            sx={{ width: 70 }}
+                                            sx={{ maxWidth: 70 }}
                                         />
                                         <Typography> ${item.price * item.quantity} </Typography>
                                         <IconButton onClick={() => dispatch(removeFromCart(item.id))}>

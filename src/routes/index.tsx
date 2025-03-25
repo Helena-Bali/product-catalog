@@ -19,7 +19,7 @@ const AppRoutes: React.FC<AppRoutesProps> = ({ searchQuery, setSearchQuery}) => 
         {
             path: "/cart",
             element: (
-                <Suspense fallback={<CircularProgress size="3rem" />}>
+                <Suspense fallback={<CircularProgress size="3rem" sx={{display: "flex", justifyContent: "center", mt: 10}} />}>
                     <Cart />
                 </Suspense>
             ),
